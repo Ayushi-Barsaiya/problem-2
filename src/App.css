@@ -1,6 +1,30 @@
 .App {
+  margin: 10px 10px;
+}
+
+#table {
+  padding: 10px 10px;
+  width: 100%;
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 5px 0px;
+  border-collapse: collapse;
+  border: 1px solid;
+}
+
+.button {
+  background: rgb(250, 252, 253);
+  padding: 10px 20px;
+  text-align: end;
+  border: 1px solid;
+}
+
+#table tr td {
+  text-align: start;
+  border-bottom: 1px solid;
+  padding: 10px 20px;
+}
+
+#button_td {
+  direction: rtl;
+  padding-right: 5px;
 }
